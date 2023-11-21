@@ -8,7 +8,7 @@ const cookieParser = require("cookie-parser");
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://podcast-jaswanth27p.vercel.app", "http://localhost:5173"],
+    origin: ["https://vercel.com/shahid-afridis-projects/podcast-frontend-one/7hGAmoKkeJ9pQaH2xV1iZ9mGCz4t", "http://localhost:5173"],
     credentials: true,
   })
 );
